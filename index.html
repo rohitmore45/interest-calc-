@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interest Calculator</title>
+    <link rel="stylesheet" href="./calc.css">
+</head>
+
+<body>
+   
+    <div>
+        <h2>Interest Calculator</h2>
+        <p>
+            <label>Principal Amount</label><br>
+            <input type="text" id="pamt" autofocus> <span>&#8377;</span>
+        </p>
+        <p>
+            <label>Rate of Interest</label><br>
+            <input type="text" id="roi"> <span>%</span>
+        </p>
+        <p>
+            <label>Time</label><br>
+            <input type="text" id="time"> <span>Year(s)</span>
+        </p>
+        <p id="buttons">
+            <button onclick="getAmount()">Get Amount</button>
+            <button onclick="clearScreen()">Clear</button>
+        </p>
+        <p>
+            <output id="interest"></output><br>
+            <output id="totalamt"></output>
+        </p>
+    </div>
+    <script src="./calc.js"></script>
+</body>
+</html>

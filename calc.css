@@ -1,0 +1,45 @@
+div {
+  width: 320px;
+  margin: 50px auto;
+  background-color: cyan;
+  color: blue;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px black;
+  padding: 25px;
+}
+h2 {
+  text-decoration: 3px underline;
+  color: brown;
+}
+
+label,
+span,
+output {
+  font-size: 20px;
+  font-weight: bold;
+}
+input {
+  padding: 5px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  margin-top: 5px;
+  width: 180px;
+  background-color: cyan;
+  border-bottom: 2px solid black;
+}
+button {
+  width: 120px;
+  height: 35px;
+  font-size: 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
